@@ -1,0 +1,12 @@
+int x = 10
+float y = x * 2.5
+string name = Alice
+bool flag = true
+
+print x     
+print y     
+print name  
+print flag  
+print Test completed
+
+exit 0
