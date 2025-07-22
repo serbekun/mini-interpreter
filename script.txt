@@ -1,12 +1,16 @@
-int x = 10
-float y = x * 2.5
-string name = Alice
-bool flag = true
+function fibonacci {
+    int n = 10
+    int a = 0
+    int b = 1
+    
+    print "Fibonacci sequence:"
+    for (i = 0; i < n; i = i + 1) {
+        print a
+        int next = a + b
+        a = b
+        b = next
+    }
+    endfor
+}
 
-print x     
-print y     
-print name  
-print flag  
-print Test completed
-
-exit 0
+fibonacci()
