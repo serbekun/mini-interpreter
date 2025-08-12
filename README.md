@@ -1,5 +1,8 @@
 # Mini-Interpreter
 
+## How was created code
+the code was written during training that's why it's so shitty and have not work places.
+
 ## Overview
 This mini-interpreter is a lightweight scripting language implementation with C-like syntax. It supports variables, control structures, functions, and basic I/O operations. The interpreter processes scripts line by line, executing commands as they are parsed.
 
